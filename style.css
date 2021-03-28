@@ -263,7 +263,7 @@ header #menu{
 }
 .home .content h1::after{
     content: "Who said Health mix are not tasty";
-    animation: textaim 10s linear infinite;
+    animation: textaim 5s linear infinite;
 }
 
 @keyframes textaim{
