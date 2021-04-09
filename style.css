@@ -84,8 +84,11 @@ header .navbar ul li a::before{
     background-color: white;
     padding: 3px 0;
 }
+.logo{
+    /* background-image: url(images/hslogo.png); */
+}
 .sticky .logo{
-    background-image: url(images/logof.png);
+    background-image: url(images/logofi.jpg);
 }
 .sticky .navbar-menu a{
     color: black;
@@ -256,7 +259,7 @@ header #menu{
     margin-right: 40px;
 }
 .home .content h1{
-    font-size: 2.8rem;
+    font-size: 4rem;
     color: white;
     padding-top: 5px;
     
@@ -268,14 +271,14 @@ header #menu{
 
 @keyframes textaim{
     25%{
-       content:"Eat healty stay saftly"; 
+       content:"Eat healty stay safely"; 
     }
     50%{
         content:"Lets Eat Fresh"; 
     }
 
     100%{
-        content:"What we wat what we are"
+        content:"What we wat is what we are"
     }
 }
 
@@ -329,7 +332,7 @@ header #menu{
 }
 
 .about{
-    min-height: 700px;
+    min-height: 650px;
     background: white;
     padding: 3rem;
     padding-top: 0rem;
@@ -354,7 +357,7 @@ header #menu{
     flex-wrap: wrap;
 }
 .about-pic{
-    width: 275px;
+    width: 200px;
     padding-top: 20px;
     margin-left: 65px;
 }
